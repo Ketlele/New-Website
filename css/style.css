@@ -1,0 +1,572 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: #0f90cc;
+}
+
+ul{
+    list-style: none;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #26a4e7;
+}
+.logo{
+    font-size: 1.5rem;
+    margin: .5rem;
+}
+.navbar-links ul{
+    display: flex;
+    padding: 1rem;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+.navbar-links li a{
+    text-decoration: none;
+    padding: 1rem;
+    align-items: center;
+    justify-content: space-between;
+    /* gap: 15px; */
+}
+.navbar-links li:hover{
+    background-color: #555;
+}
+.toggle-button{
+    position: absolute;
+    top: .75rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px; 
+}
+.toggle-button .bar {
+    height: 3px;
+    width: 100%;
+    background-color: #0f90cc;
+    border-radius: 10px;
+}
+/* Add a black backgrond color to the top navigation */
+.navbar {
+    background-color: rgb(243, 243, 243);
+    overflow: hidden;
+    min-height: 8vh;
+}
+
+
+/* Navbar End*/
+
+header{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../images/a0a3a859660341.5a2a389d8997d.jpg);
+    background-position: bottom;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.header-content{
+    margin-bottom: 150px;
+    color: whitesmoke;
+    text-align: center;
+}
+.header-content h2 {
+    font-size: 4vmin;
+}
+.line {
+    width: 150px;
+    height: 4px;
+    background-color: rgb(51, 128, 230);
+    margin: 10px auto;
+    border-radius: 5px;
+}
+.header-content h1{
+    font-size: 7vmin;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.ctn{
+    padding: 8px 15px;
+    background: aquamarine;
+    border-radius: 30px;
+    color: rgb(5, 4, 4);
+}
+
+.menu-btn{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    width: 40px;
+    cursor: pointer;
+    display: none;
+}
+/* Events */
+section{
+    width: 90%;
+    margin: 100px auto;
+}
+.title{
+    text-align: center;
+    font-size: 6vmin;
+    color: black;
+}
+.row{
+    display: inline-flex;
+    text-align: center;
+    width: 100%;
+    
+}
+.row .col-6{
+    width: 60%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.image img{
+    margin-top:10px;
+    width: 275px;
+    height: 300px;
+}
+.events .row{
+    width:100%;
+    margin-top: 50px;
+
+}
+h4{
+    font-size: 1rem;
+    color: black;
+    margin: 10px 10px;
+    margin-top:10px;
+}
+.text-1 p{
+    color: solid black;
+    margin-bottom:20px;
+
+    /* padding:  10px; */
+}
+.events .ctn{
+    margin-top: 30px;
+    
+}
+
+.text-1 .ctn{
+    gap:5px;
+    color:solid black;
+    margin-top:30px;
+}
+
+/* Second Image Edit */
+.Explore{
+    width: 99vw;
+    height: 100vh;
+    background-image: url("../images/42346.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.explore-cont{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 10rem 5rem;
+}
+
+.Explore h1{
+    font-size: 7vmin;
+    margin: 50px;
+    color: whitesmoke;
+}
+.explore-cont hr{
+    width: 15px;
+    height: 200px;
+    margin: 0;
+    border: none;
+    background-color:#0f90cc;
+    margin-bottom: 10px;
+}
+.Explore p{
+    color: aquamarine;
+    font-size: 16px;
+    margin-top: 70px;
+}
+.Explore .ctn{
+    margin: 40%;
+    
+}
+
+
+/* last Section */
+.content-col{
+    width: 50%;
+}
+.image-col{
+    width: 60%;
+}
+.row .tours .image-gallery{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+}
+.image-gallery img{
+    max-width: 200px;
+    margin: 10px;
+}
+.content-col h1{
+    font-size: 7vmin;
+    color: black;
+}
+.content-col .line{
+    margin-left: -1px;
+}
+.content-col p{
+    padding: 0;
+    margin: 30px auto;
+}
+
+/* Contact Page */
+.contact-parent{
+    background: #fff;
+    display:flex;
+    margin:80px 0;
+}
+
+.contact-child{
+    display:flex;
+    flex:1;
+    box-shadow:0px 0px 10px -2px rgba(0,0,0,0.75);
+}
+
+.child1{
+    background:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("../images/lighting-sound-technicians-television-operators-work-backstage-public-event-165678607.jpg");
+    background-size:cover;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around;
+    color:#fff;
+    padding:100px 0;
+}
+
+.child1 p{
+    padding-left:20%;
+    font-size:20px;
+    text-shadow:0px 0px 2px rgb(243, 238, 238);
+}
+
+.child1 p span{
+    font-size:16px;
+    color:#9df2fd;
+}
+
+.child2{
+    flex-direction:column;
+    justify-content:space-around;
+    align-items:center;
+}
+
+.inside-contact{
+    width:90%;
+    margin:0 auto;
+}
+
+.inside-contact h2{
+    text-transform:uppercase;
+    text-align:center;
+    margin-top:50px;
+}
+
+.inside-contact h3{
+    text-align:center;
+    font-size:16px;
+    color:#0085e2;
+}
+
+.inside-contact input, .inside-contact textarea{
+    width:100%;
+    background-color:#eee;
+    border:1px solid rgba(0,0,0,0.48);
+    padding:5px 10px;
+    margin-bottom:20px;
+}
+
+.inside-contact input[type=submit]{
+    background-color:#000;
+    color:#fff;
+    transition:0.2s;
+    border:2px solid #000;
+    margin:30px 0;
+}
+
+.inside-contact input[type=submit]:hover{
+    background-color:#fff;
+    color:#000;
+    transition:0.2s;
+}
+
+/* Service */
+.section-div {
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    place-items: center;
+  }
+.row .section-heading {
+    display: flex;
+    flex-wrap: wrap;
+}
+.column {
+    width: 100%;
+    padding: 0 1em 1em 1em;
+    text-align: center;
+  }
+.column .card {
+    width: 100%;
+    height: 100%;
+    padding: 2em 1.5em;
+    background: linear-gradient(#ffffff 50%, #2c7bfe 50%);
+    background-size: 100% 200%;
+    background-position: 0 2.5%;
+    border-radius: 5px;
+    box-shadow: 0 0 35px rgba(0, 0, 0, 0.12);
+    cursor: pointer;
+    transition: 0.5s;
+}
+.card h3 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #1f194c;
+    margin: 1em 0;
+}
+.card p {
+    color: #575a7b;
+    font-size: 15px;
+    line-height: 1.6;
+    letter-spacing: 0.03em;
+}
+.icon-wrapper {
+    background-color: #2c7bfe;
+    position: relative;
+    margin: auto;
+    font-size: 30px;
+    height: 2.5em;
+    width: 2.5em;
+    color: #ffffff;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    transition: 0.5s;
+}
+.card:hover {
+    background-position: 0 100%;
+}
+.card:hover .icon-wrapper {
+    background-color: #ffffff;
+    color: #2c7bfe;
+}
+.card:hover h3 {
+    color: #ffffff;
+  }
+.card:hover p {
+    color: #f0f0f0;
+}
+
+
+
+/* About Page */
+.about_section .img-box {
+    padding: 35px 0;
+    background-color: #ececec;
+  }
+  
+  .about_section .img-box img {
+    width: 50vw;
+    -webkit-transform: translateX(45px);
+            transform: translateX(45px);
+  }
+  
+  .about_section .detail-box {
+    text-align: center;
+    padding: 35px 45px;
+  }
+  
+  .about_section .detail-box .heading_container {
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  
+  .about_section .detail-box .heading_container hr {
+    width: 1px;
+    height: 110px;
+    margin: 0;
+    border: none;
+    background-color:#0f90cc;
+    margin-bottom: 10px;
+  }
+  
+  .about_section .detail-box p {
+    margin-top: 10px;
+  }
+  
+  .about_section .detail-box a {
+    display: inline-block;
+    padding: 10px 40px;
+    background-color: #313131;
+    border: 1px solid #0f90cc;
+    color: #ffffff;
+    margin-top: 10px;
+  }
+  
+  .about_section .detail-box a:hover {
+    background-color: transparent;
+    color: #313131;
+  }
+
+
+/* Blog Page Styling */
+.blog{
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    
+}
+.blog-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.blog-heading span{
+    color: #000;
+}
+.blog-heading h3{
+    font-size: 2.4rem;
+    color: #0f90cc;
+    font-weight: 600;
+}
+.blog-container1{
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    /* margin-left: 3rem; */
+    align-items: center;
+    flex-wrap: wrap;
+}
+.blog-container2{
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.blog-container3{
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.blog-box{
+    width: 350px;
+    background-color: #ffffff;
+    border: 1px solid #ececec;
+    margin: 20px;
+}
+.blog-img{
+    width: 100%;
+    height: auto;
+}
+.blog-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.blog-text{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.blog-text span{
+    color: #0f90cc;
+    font-size: 0.9rem;
+}
+.blog-text .blog-title{
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: #0f90cc;
+}
+.blog-text p{
+    color: #000;
+    font-size: 0.9rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 20px 0px;
+}
+.blog-text a{
+    margin-top: 30px;
+}
+
+
+/* Footer */
+.footer{
+    width: 100vw;
+    min-height: 250px;
+    padding: 20px 80px;
+    margin: 0;
+    background-color: darkgrey;
+    text-align: center;
+}
+.footer p{
+    color: whitesmoke;
+    margin: 20px auto;
+    padding: 20px auto;
+}
+
+
+/* Animation */
+img{
+    transition: transform .3s ease;
+}
+img:hover{
+    transform: scale(1.1);
+}
+.ctn:hover{
+    background-color: aliceblue;
+    color: aqua;
+    box-shadow: 2px 2px 5px black;
+}
+
+
+/* tablet zone */
+@media screen and (max-width: 1024px) {
+    .nav-links{
+
+        width: 50%;
+    }
+    
+}
